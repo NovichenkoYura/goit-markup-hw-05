@@ -58,8 +58,8 @@ img {
 /* Header */
 
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-bottom: 0px;
   max-width: 1600px;
   border-bottom: 1px solid #ececec;
@@ -112,6 +112,8 @@ img {
   letter-spacing: 0.02em;
   /* padding-top: 32px;
   padding-bottom: 32px; */
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link {
@@ -166,6 +168,8 @@ img {
   color: var(--secondary-text-color);
   display: flex;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* padding-top: 32px;
   padding-bottom: 32px; */
@@ -197,6 +201,8 @@ img {
 .header-address-link {
   display: flex;
   color: var(--secondary-text-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adsress-item-icon {
@@ -478,6 +484,8 @@ img {
   justify-content: center;
   align-items: center;
   color: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .player-social-icon {
@@ -511,6 +519,8 @@ img {
   border-radius: 4px;
   border: 1px transparent;
   padding: 10px 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title .button:hover,
@@ -541,6 +551,8 @@ img {
   height: 92px;
   border-radius: 4px;
   color: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-icon {
@@ -572,6 +584,11 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer .link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .link:hover,
@@ -670,6 +687,8 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--white);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .player-social-icon {
@@ -719,6 +738,11 @@ img {
 .filter.current {
   background-color: var(--accent-color);
   color: var(--white);
+}
+
+.filter {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter:hover,
@@ -779,6 +803,8 @@ img {
   flex-basis: calc(100% / 9 -30px);
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-list {
