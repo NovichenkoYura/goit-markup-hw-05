@@ -58,8 +58,8 @@ img {
 /* Header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-bottom: 0px;
   max-width: 1600px;
   border-bottom: 1px solid #ececec;
@@ -135,8 +135,19 @@ img {
   margin-right: 50px;
 }
 
+.link {
+  position: relative;
+}
 .link.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
   border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+  bottom: 0;
+  left: 0;
+
+  /* background-color: red; */
 }
 
 /* Adress */
@@ -361,6 +372,26 @@ img {
   /* background-color: green; */
   display: flex;
   justify-content: space-between;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-name {
+  font-weight: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  /* outline: 2px solid red; */
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
 }
 
 /* Team */
