@@ -23,10 +23,9 @@ fill="#afb1b8" style="fill: var(--color2, #afb1b8)
 logo: fill="#afb1b8" style="fill: var(--color1, #afb1b8)"
 
 HW5
-добавить теть в модальное окно
-выкачать иконку закрытия
+добавить тень в модальное окно
 
-что значитЖ
+что значит
 opacity: 0;
 pointer-events: 0;
 visibility: hidden;
