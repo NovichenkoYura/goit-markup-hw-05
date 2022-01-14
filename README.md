@@ -21,3 +21,7 @@ svgomg
 fill="#fff" style="fill: var(--color1, #fff)"  
 fill="#afb1b8" style="fill: var(--color2, #afb1b8)
 logo: fill="#afb1b8" style="fill: var(--color1, #afb1b8)"
+
+HW5
+добавить теть в модальное окно
+выкачать иконку закрытия
