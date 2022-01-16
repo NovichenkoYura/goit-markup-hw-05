@@ -627,12 +627,12 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--white);
-  margin-bottom: 9px;
+  /* margin-bottom: 9px; */
 }
 
-/* .footer-list-item {
+.footer-list-item {
   margin-bottom: 9px;
-} */
+}
 
 .footer-email {
   font-style: normal;
@@ -641,7 +641,7 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  margin-bottom: 9px;
+  /* margin-bottom: 9px; */
 }
 
 .footer-tel {
@@ -684,7 +684,7 @@ img {
 
 .footer-wrap {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-social-link {
